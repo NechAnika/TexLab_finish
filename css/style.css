@@ -283,6 +283,10 @@ main {
   height: 100%;
 }
 
+.footer--line {
+  border-top: 1px solid #FFFFFF;
+}
+
 .footer__container {
   display: flex;
   flex-direction: row;
