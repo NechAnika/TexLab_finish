@@ -188,5 +188,13 @@ color: #FFFFFF;
 }
 
 .main__grafikaleft {
+    display: block;
 
+    background: no-repeat url("../image/Frame2.svg") -242px 220px;
+    width: 1230px;
+    z-index: 9999;
+    height: 430px;
+    position: absolute;
+    right: 700px;
+    bottom: 395px;
 }
