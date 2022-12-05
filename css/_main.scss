@@ -1,0 +1,192 @@
+
+.main__header {
+    height: 200px;
+    background: linear-gradient(96.18deg, #006B9E -2.14%, #0D75BE 48.69%, #095BA3 101.22%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+}
+
+.main__title {
+    align-items: center;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    display: flex;
+    width: 55%;
+    margin-left: 320px;
+}
+
+.main__news {
+
+}
+
+.main__container {
+    max-width: 1920px;
+   
+}
+
+.main__container--blue {
+    background: linear-gradient(96.18deg, #006B9E -2.14%, #0D75BE 48.69%, #095BA3 101.22%);
+    max-width: 1920px;
+    max-height: 670px;
+    padding: 80px;
+    display: flex;
+}
+
+.h2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
+.grafika {
+    display: flex;
+    align-items: flex-end;
+    align-self: flex-end;
+    background: no-repeat url("../image/background.png") -242px 220px;
+    width: 1230px;
+    z-index: 9999;
+    height: 430px;
+}
+
+main {
+    min-height: 1000px;
+}
+
+.main__form {
+    background: #EDF7FA;
+    border-radius: 6px;
+    max-width: 956px;
+    max-height: 445px;
+    padding: 56px;
+    margin: 0 400px 0 400px;
+    display: flex;
+}
+
+.main-question {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #30353D;
+}
+
+.main__form p {
+    margin-block-start: 0px;
+}
+
+.main-btsend {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 48px;
+    gap: 10px;
+    width: 190px;
+    height: 53px;
+    left: 56px;
+    top: 336px;
+    background: #ABB3BF;
+    box-shadow: 0px 4px 12px rgba(32, 82, 126, 0.3);
+    border-radius: 4px;
+
+    font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+}
+
+.main-textfooter {
+    display: flex;
+}
+
+
+.main-imputelement {
+ 
+    width: 260px;
+    height: 56px;
+    left: 640px;
+    top: 132px;
+    background: #FFFFFF;
+    border: 1px solid #BAC2CE;
+    border-radius: 4px;
+    display: flex;
+    align-items: stretch;
+    padding: 16px;
+    color: #63676A;
+}
+
+.main-areaquestion {
+    box-sizing: border-box;
+    width: 844px;
+    height: 100px;
+    left: 56px;
+    top: 212px;
+    background: #FFFFFF;
+    border: 1px solid #BAC2CE;
+    border-radius: 4px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding: 16px;
+    color: #63676A;
+}
+
+.userinfo {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.main__submit {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+.main-textfooter {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-top: 5px;
+    align-items: stretch;
+    flex-direction: row;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #63676A;
+}
+
+.form_container {
+    position: relative;
+}
+
+.main__grafikaright {
+    display: block;
+
+    background: no-repeat url("../image/Frame1.svg") -242px 220px;
+    width: 1230px;
+    z-index: 9999;
+    height: 430px;
+    position: absolute;
+    right: -200px;
+    bottom: 115px;
+}
+
+.main__grafikaleft {
+
+}

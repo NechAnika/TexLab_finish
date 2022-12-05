@@ -1,0 +1,40 @@
+.reviews {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(200px, auto);
+    padding-top: 80px;
+
+    grid-column-gap: 30px;
+    grid-row-gap: 53px;
+}
+
+.reviews__item img{
+    display: block;
+}
+
+.reviews__hadlink{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px; 
+    color: #006B9E;
+}
+
+.reviews__detaillink{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #454E5C;
+}
+
+.reviews p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #454E5C;
+}

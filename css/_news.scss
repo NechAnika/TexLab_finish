@@ -1,0 +1,52 @@
+.news__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.news__title {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.news__image {
+    margin-top: 52px;
+}
+
+.news__link {
+    color: #006B9E;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.news__description {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.news__time {
+    font-family: 'Ubuntu',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.news__loadmore {
+    width: 100%;
+    text-align: center;
+    margin: 56px 0 80px 0;
+}
+
+.news__picture {
+    margin-bottom: 52px;
+    margin-top: 52px;
+}
+

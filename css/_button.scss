@@ -1,0 +1,25 @@
+.button--blue{
+    background: #0C6DC2;
+    box-shadow: 0px 4px 12px rgba(32, 82, 126, 0.3);
+    border-radius: 4px;
+}
+
+.button--md {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 10px;
+}
+
+.news__button {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    width: 175px;
+    height: 53px;
+    text-align: center;
+    color: #FFFFFF;
+}
